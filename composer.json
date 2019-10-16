@@ -1,0 +1,19 @@
+{
+    "name": "amirreza/telegrambotphp",
+    "description": "Telegram Bot",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Amirreza ahmadi",
+            "email": "amiramdi19@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=5.0"
+    },
+    "autoload": {
+        "files": ["Telegram.php", "TelegramErrorLogger.php"]
+    }
+}
